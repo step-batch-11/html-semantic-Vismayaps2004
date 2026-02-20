@@ -21,7 +21,7 @@ footer {
 h1,
 h2 {
   color: hwb(0 25% 75%);
-  padding: 0.5em;
+  padding-block: 0.5em;
 }
 
 hgroup {
@@ -83,6 +83,7 @@ h1 {
 
 h2 {
   font-size: 22px;
+  /* left: 3em; */
 }
 
 mark {
