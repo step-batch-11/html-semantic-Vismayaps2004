@@ -12,18 +12,36 @@
       </hgroup>
 
       <nav>
-        <a href="/home.html">Home</a>
-        <a href="/articles.html">Articles</a>
-        <a href="/projects.html">Projects</a>
-        <a href="/contact.html">Contact</a>
+        <ul>
+          <li>
+            <a href="/home.html">Home</a>
+          </li>
+          <li>
+            <a href="/articles.html">Articles</a>
+          </li>
+          <li>
+            <a href="/projects.html">Projects</a>
+          </li>
+          <li>
+            <a href="/contact.html">Contact</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main>
       <article>
         <header>
           <h2>Rooftop Gardens Are Changing Cities</h2>
-          <p>Maria Lopez</p>
-          <p>March 15, 2026</p>
+          <p>Author: Maria Lopez</p>
+          Published:
+          <input
+            type="date"
+            id="start"
+            name="last-updated"
+            value="2026-03-15"
+            min="2026-03-01"
+            max="2026-03-31"
+          />
         </header>
 
         <p>
@@ -77,12 +95,20 @@
       </address>
     </main>
 
+    <footer>
+      <p>© 2026 Urban Green Initiative</p>
+      Last updated:
+      <input
+        type="date"
+        id="start"
+        name="last-updated"
+        value="2026-04-01"
+        min="2026-04-01"
+        max="2026-04-30"
+      />
+    </footer>
     <dialog open="">
       <p>Subscribe to our newsletter for updates!</p>
     </dialog>
-    <footer>
-      <p>© 2026 Urban Green Initiative</p>
-      <p>Last updated: April 1, 2026</p>
-    </footer>
   </body>
 </html>
